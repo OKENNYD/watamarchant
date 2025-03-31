@@ -1,0 +1,106 @@
+{
+    "seller_information": {
+      "type": "object",
+      "title": "Seller Information",
+      "properties": {
+        "shop_name": {
+          "type": "string",
+          "title": "Shop Name",
+          "description": "Enter the name of your shop"
+        },
+        "first_name": {
+          "type": "string",
+          "title": "First Name"
+        },
+        "last_name": {
+          "type": "string",
+          "title": "Last Name"
+        },
+        "email": {
+          "type": "string",
+          "title": "Email Address",
+          "format": "email"
+        },
+        "phone_number": {
+          "type": "string",
+          "title": "Phone Number",
+          "description": "Enter phone number in international format (e.g. +1234567890)"
+        }
+      },
+      "required": [
+        "shop_name",
+        "first_name",
+        "last_name",
+        "email"
+      ]
+    },
+    "account_details": {
+      "type": "object",
+      "title": "Account Details",
+      "properties": {
+        "password": {
+          "type": "string",
+          "title": "Password",
+          "minLength": 8
+        },
+        "confirm_password": {
+          "type": "string",
+          "title": "Confirm Password"
+        }
+      },
+      "required": [
+        "password",
+        "confirm_password"
+      ]
+    },
+    "country": {
+        "type": "string",
+        "enum": [
+          "US",
+          "CA",
+          "GB",
+          "AU", 
+          "OTHER" 
+        ],
+        "title": "Country",
+        "description": "Select your country of residence."
+      },
+      "currency": {
+        "type": "string",
+        "enum": [
+          "USD",
+          "CAD",
+          "GBP",
+          "AUD",
+          "OTHER"
+        ],
+        "title": "Preferred Currency",
+        "description": "Select the currency you'd like to use for your store."
+      },
+    "shop_details": {
+      "type": "object",
+      "title": "Shop Details",
+      "properties": {
+        "shop_description": {
+          "type": "string",
+          "title": "Shop Description",
+          "description": "Briefly describe your shop and the products you sell"
+        },
+        "shop_location": {
+          "type": "string",
+          "title": "Shop Location"
+        },
+        "return_policy": {
+          "type": "string",
+          "title": "Return Policy",
+          "description": "Describe your return and exchange policy"
+        }
+      },
+      "termsAndConditions": {
+        "type": "boolean",
+        "title": "Terms and Conditions",
+        "description": "You must agree to our terms and conditions to continue."
+      }
+    }
+  }
+  

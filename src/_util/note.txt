@@ -1,0 +1,97 @@
+{
+    "categories": [
+      "Arts & Crafts",
+      "Automobile & Motocycle",
+      "Baby",
+      "Beauty & Health care",
+      "Computers",
+      "Electronics & Appliances",
+      "Fashion",
+      "Groceries",
+      "Home, Kitchen & Office",
+      "Industrial & Scientific",
+      "Luggages",
+      "Media & Books",
+      "Pet Supplies"
+    ],
+    "subcategories": {
+      "Arts & Crafts": [
+        "Drawing & Painting Supplies",
+        "Sculpting & Molding",
+        "Jewelry Making",
+        "Paper Crafts"
+      ],
+      "Automobile & Motocycle": [
+        "Car Parts & Accessories",
+        "Motorcycle Parts & Accessories",
+        "Car Care",
+        "Motorcycle Gear"
+      ],
+      "Baby": [
+        "Diapers & Wipes",
+        "Feeding & Nursing",
+        "Clothing & Bedding",
+        "Toys & Games"
+      ],
+      "Beauty & Health care": [
+        "Makeup",
+        "Skincare",
+        "Hair Care",
+        "Bath & Body"
+      ],
+      "Computers": [
+        "Laptops",
+        "Desktops",
+        "Tablets",
+        "Computer Components"
+      ],
+      "Electronics & Appliances": [
+        "Televisions",
+        "Home Appliances",
+        "Audio & Video Equipment",
+        "Gaming Consoles"
+      ],
+      "Fashion": [
+        "Men's Clothing",
+        "Women's Clothing",
+        "Children's Clothing",
+        "Shoes & Accessories"
+      ],
+      "Groceries": [
+        "Snacks & Beverages",
+        "Canned Goods & Dry Staples",
+        "Bakery & Dairy",
+        "Meat & Seafood"
+      ],
+      "Home, Kitchen & Office": [
+        "Furniture",
+        "Kitchenware",
+        "Home Decor",
+        "Office Supplies"
+      ],
+      "Industrial & Scientific": [
+        "Lab Equipment",
+        "Power Tools",
+        "Safety Gear",
+        "Measuring Instruments"
+      ],
+      "Luggages": [
+        "Suitcases & Duffel Bags",
+        "Backpacks & Travel Bags",
+        "Luggage Accessories",
+        "Business Cases"
+      ],
+      "Media & Books": [
+        "Books",
+        "Movies & TV Shows",
+        "Music",
+        "Video Games"
+      ],
+      "Pet Supplies": [
+        "Food",
+        "Treats",
+        "Toys & Accessories",
+        "Beds & Bedding"
+      ]
+    }
+  }

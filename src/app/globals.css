@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar::-webkit-scrollbar-track {
+  @apply bg-slate-200;
+  @apply w-2;
+}
+
+.bar::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+  @apply w-2;
+  @apply rounded-full;
+}
+
+.bar::-webkit-scrollbar {
+  @apply w-2;
+}
+
+.logo-fill_primary {
+  fill: #ff69b4;
+}
+.logo-fill_Secondary {
+  fill: #4169e1;
+}
+
+.scroll-none {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.scroll-none::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.scr-none{
+  scrollbar-track-color: transparent;
+  scrollbar-width: 0;
+}
+.scroll-none::-webkit-scrollbar-track {
+  @apply hidden;
+}
+
+.trans {
+  transition-duration: 1s;
+}
+progress{
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  @apply bg-gray-100;
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 50px;
+  @apply bg-gray-100;
+}
+progress[value]::-webkit-progress-value {
+  border-radius: 50px;
+  @apply bg-secondary;
+}
+progress[value]::-moz-progress-bar {
+  border-radius: 50px;
+  @apply bg-secondary;
+}
+
+.editor-input {
+  min-height: 150px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.editor-placeholder {
+  color: #aaa;
+  padding: 10px;
+}
+
+.toolbar button {
+  font-size: 14px;
+  cursor: pointer;
+}
